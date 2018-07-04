@@ -16,7 +16,8 @@
   "scripts": {
     "test": "mocha",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "files": [
     "app",
@@ -32,7 +33,7 @@
     "execSync": "^1.0.2",
     "yeoman-generator": "0.24.1",
     "yosay": "^0.3.0",
-    "snyk": "^1.17.5"
+    "snyk": "^1.88.1"
   },
   "devDependencies": {
     "mocha": "*"
